@@ -1,0 +1,36 @@
+body{
+    font-family: arial;
+}
+
+.css-todo,.input-css
+{
+    display:grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 15px;
+    row-gap: 15px;
+    align-items:center;
+}
+.input-css{
+    margin-bottom: 15px;
+    align-items:stretch;
+}
+.text-css,.date-css,.add-css,.delete-css{
+    font-size:13px;
+    padding:5px;
+}
+.add-css{
+    background-color: green;
+    border:none;
+    color:white;
+    
+    cursor:pointer;
+}
+.delete-css
+{
+    background-color: darkred;
+    border: none;
+    color:white;
+   padding-top:10px;
+   padding-bottom:10px;
+    cursor: pointer;
+}
